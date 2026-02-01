@@ -1,0 +1,16 @@
+# Node modules (no subirlos, ocupan mucho espacio)
+node_modules/
+
+# Archivos generados automáticamente
+package-lock.json
+package.json
+
+# Carpeta de distribución generada por Gulp
+dist/
+
+# Archivos del sistema de Windows
+Thumbs.db
+.DS_Store
+
+# Archivos de VS Code
+.vscode/
