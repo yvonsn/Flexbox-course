@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Imagen aleatoria</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        margin: 0;
+        height: calc(100vh - 20px);
+        width: calc(100vw - 20px);
+        border: 10px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container > .img_blocks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .img_blocks img {
+        margin: 5px;
+        height: 120px;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img_blocks">
+        <img src="https://picsum.photos/150/150?random=1" alt="Imagen 1" />
+        <img src="https://picsum.photos/150/150?random=2" alt="Imagen 2" />
+        <img src="https://picsum.photos/150/150?random=3" alt="Imagen 3" />
+        <img src="https://picsum.photos/150/150?random=4" alt="Imagen 4" />
+        <img src="https://picsum.photos/150/150?random=5" alt="Imagen 5" />
+        <img src="https://picsum.photos/150/150?random=6" alt="Imagen 6" />
+        <img src="https://picsum.photos/150/150?random=7" alt="Imagen 7" />
+        <img src="https://picsum.photos/150/150?random=8" alt="Imagen 8" />
+      </div>
+    </div>
+  </body>
+</html>
